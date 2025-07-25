@@ -114,6 +114,31 @@ nav img {
   color: #ffffff;
   border: none;
 }
+/* plants lover section styles */
+.plants-lover-container {
+  display: flex;
+  gap: 60px;
+  height: 570px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.container-left {
+  width: 100%;
+}
+.container-left {
+}
+.container-right img {
+  width: 200px;
+  height: 200px;
+}
+.container-right h1 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+.container-right ul {
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.5);
+}
 
 /* join styles */
 .join {
@@ -206,5 +231,17 @@ footer .div3 ul {
   .div7 {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+  }
+  /* footer responsive */
+  footer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* plants lover section responsive */
+  .plants-lover-container {
+    flex-direction: column;
+    max-width: 400px;
+  }
+  .container-right img {
+    display: none;
   }
 }
