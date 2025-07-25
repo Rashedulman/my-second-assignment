@@ -38,6 +38,7 @@ nav img {
 /* banner styles */
 .banner {
   margin-top: 95px;
+  margin-bottom: 130px;
   align-items: end;
 }
 .banner-title {
@@ -75,5 +76,13 @@ nav img {
   nav img {
     height: 35px;
     width: 60px;
+  }
+  /* banner responsive */
+  .banner {
+    flex-direction: column-reverse;
+    max-width: 400px;
+  }
+  .div4 {
+    max-width: 390px;
   }
 }
